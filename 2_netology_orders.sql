@@ -28,7 +28,7 @@ SET
 INSERT INTO `netology`.`orders`
 SET 
     date='2025-02-07',
-    customer_id`=(select id from netology.customers where surname = 'Ivanov'), 
+    customer_id=(select id from netology.customers where surname = 'Ivanov'), 
     product_name='milk',
     amount=5;
 
